@@ -27,7 +27,7 @@ export default function App() {
         <Image
           style={styles.avatar}
           source={{
-            uri: "https://i.pravatar.cc/345",
+            uri: "https://i.pravatar.cc/820",
           }}
         />
 
