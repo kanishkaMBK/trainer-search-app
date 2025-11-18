@@ -18,3 +18,14 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+import React from "react";
+import { SafeAreaView } from "react-native";
+import Profile from "./profile";   // <-- adjust path if needed
+
+export default function App() {
+  return (
+    <SafeAreaView style={{ flex: 1 }}>
+      <Profile />
+    </SafeAreaView>
+  );
+}
